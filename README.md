@@ -7,7 +7,7 @@
   - 若有後台的話將這些資料放進 DB 或是 Config System 是比較好的選擇
 
 ## Contents
-- 套件依賴管理使用 Go Module
+- 套件依賴管理使用 `Go Module`
 - HTTP framework 使用 `Iris`
   - 可以使用其他 HTTP framework 像是 [Gin](https://github.com/gin-gonic/gin) 或是 [echo](https://github.com/labstack/echo) 來取代 
 - Environment variables
