@@ -21,7 +21,7 @@
 ./bin/server 
 
 ## Call API
-http://localhost:8080/calculation?user_level=2&user_points=100&price=1000
+curl http://localhost:8080/calculation?user_level=2&user_points=100&price=1000
 
 ## 回傳將會使用多少平台幣與平台點數
 ## -> {"coin":710,"points":100}
