@@ -1,8 +1,8 @@
 # demo-checkout
 
 ## Concepts
-- 將題目所提到的三種收費模式組成一個 strategy，第二題提出的需求再當成另一個 strategy
-  - 透過 env 來設定類似 feature flag 的效果去決定使用哪一種 strategy
+- 將題目所提到的三種收費模式組成一個 strategy，針對第二題提出的需求變更再新增另一個 strategy
+  - 透過 env 來設定類似 feature flag 的效果去做新舊版本的切換
 - 目前是將折扣以及折抵比例放進 env 進行動態調整
   - 若有後台的話將這些資料放進 DB 或是 Config System 是比較好的選擇
 
