@@ -11,7 +11,7 @@
 - HTTP framework 使用 `Iris`
   - 可以使用其他 HTTP framework 像是 [Gin](https://github.com/gin-gonic/gin) 或是 [echo](https://github.com/labstack/echo) 來取代 
 - Environment variables
-  - 可依所需情境使用像是 [viper](https://github.com/spf13/viper) 等第三方套件來管理
+  - 可依所需情境使用像是 [viper](https://github.com/spf13/viper) 的第三方套件來管理
 - Dependency Injection
   - 可依所需情境使用像是 [dig](https://github.com/uber-go/dig) 或是 [wire](https://github.com/google/wire) 來作元件依賴管理
 
@@ -21,8 +21,11 @@
 ./bin/server 
 
 ## Call API
+## user_level: 用戶等級 (Normal: 0, VIP1: 1, VIP2: 2, VIP3: 3)
+## user_points: 用戶點數
+## price: 用戶購買金額
 curl http://localhost:8080/calculation?user_level=2&user_points=100&price=1000
 
-## 回傳將會使用多少平台幣與平台點數
+## API 回傳將會使用多少平台幣與平台點數
 ## -> {"coin":710,"points":100}
 ```
